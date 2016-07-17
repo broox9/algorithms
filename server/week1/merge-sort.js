@@ -1,4 +1,5 @@
 var recursionCount = 0;
+var inversions = []
 
 function mergeSort(example) {
   if (example.length < 2) {
@@ -13,7 +14,7 @@ function mergeSort(example) {
   var two = example.slice(midpoint);
 
   // console.log(one, two);
-  console.log('recursive steps:', recursionCount);
+  // console.log('recursive steps:', recursionCount);
   // console.log("\n\Recursive Count: %d, array length [%d, %d]",
   //   recursionCount, one.length, two.length
   // );

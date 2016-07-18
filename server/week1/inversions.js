@@ -1,7 +1,7 @@
 var example = require('./_data/big_array');
 // var example = [0,3,5,2,4,8]; // 3 inversions
 // var example = [1,2,8,4,5,3,9] //5 inversions
-var example = ['k', 'a', 'e', 'i', 'o', 'u', 'y']; // 3 inversions
+// var example = ['k', 'a', 'e', 'i', 'o', 'u', 'y']; // 3 inversions
 var mergeSort = require('./merge-sort');
 var countAndSort = require('./count-and-sort').countAndSort;
 var getInversions = require('./count-and-sort').getInversions;
